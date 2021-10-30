@@ -95,32 +95,6 @@ help_string_telegraph = f'''<br>
 <br><br>
 <b>/{BotCommands.ZipMirror1Command}</b> [download_url][magnet_link]: Start mirroring and upload the archived (.zip) version of the download
 <br><br>
-<b>/{BotCommands.UnzipMirror1Command}</b> [download_url][magnet_link]: Starts mirroring and if downloaded file is any archive, extracts it to Google Drive
-<br><br>
-<b>/{BotCommands.QbMirror1Command}</b> [magnet_link]: Start Mirroring using qBittorrent, Use <b>/{BotCommands.QbMirrorCommand} s</b> to select files before downloading
-<br><br>
-<b>/{BotCommands.QbTarMirror1Command}</b> [magnet_link]: Start mirroring using qBittorrent and upload the archived (.tar) version of the download
-<br><br>
-<b>/{BotCommands.QbZipMirror1Command}</b> [magnet_link]: Start mirroring using qBittorrent and upload the archived (.zip) version of the download
-<br><br>
-<b>/{BotCommands.QbUnzipMirror1Command}</b> [magnet_link]: Starts mirroring using qBittorrent and if downloaded file is any archive, extracts it to Google Drive
-<br><br>
-<b>/{BotCommands.Leech1Command}</b> [download_url][magnet_link]: Start leeching to Telegram, Use <b>/{BotCommands.LeechCommand} s</b> to select files before leeching
-<br><br>
-<b>/{BotCommands.TarLeech1Command}</b> [download_url][magnet_link]:  Start leeching to Telegram and upload it as (.tar)
-<br><br>
-<b>/{BotCommands.ZipLeech1Command}</b> [download_url][magnet_link]: Start leeching to Telegram and upload it as (.zip)
-<br><br>
-<b>/{BotCommands.UnzipLeech1Command}</b> [download_url][magnet_link]: Start leeching to Telegram and if downloaded file is any archive, extracts it to Telegram
-<br><br>
-<b>/{BotCommands.QbLeech1Command}</b> [magnet_link]: Start leeching to Telegram using qBittorrent, Use <b>/{BotCommands.QbLeechCommand} s</b> to select files before leeching
-<br><br>
-<b>/{BotCommands.QbTarLeech1Command}</b> [magnet_link]: Start leeching to Telegram using qBittorrent and upload it as (.tar)
-<br><br>
-<b>/{BotCommands.QbZipLeech1Command}</b> [magnet_link]: Start leeching to Telegram using qBittorrent and upload it as (.zip)
-<br><br>
-<b>/{BotCommands.QbUnzipLeech1Command}</b> [magnet_link]: Start leeching to Telegram using qBittorrent and if downloaded file is any archive, extracts it to Telegram
-<br><br>
 <b>/{BotCommands.Clone1Command}</b> [drive_url]: Copy file/folder to Google Drive
 <br><br>
 <b>/{BotCommands.Count1Command}</b> [drive_url]: Count file/folder of Google Drive Links
@@ -132,16 +106,6 @@ help_string_telegraph = f'''<br>
 <b>/{BotCommands.TarWatch1Command}</b> [youtube-dl supported link]: Mirror through youtube-dl and tar before uploading
 <br><br>
 <b>/{BotCommands.ZipWatch1Command}</b> [youtube-dl supported link]: Mirror through youtube-dl and zip before uploading
-<br><br>
-<b>/{BotCommands.LeechWatch1Command}</b> [youtube-dl supported link]: Leech through youtube-dl 
-<br><br>
-<b>/{BotCommands.LeechTarWatch1Command}</b> [youtube-dl supported link]: Leech through youtube-dl and tar before uploading 
-<br><br>
-<b>/{BotCommands.LeechZipWatch1Command}</b> [youtube-dl supported link]: Leech through youtube-dl and zip before uploading 
-<br><br>
-<b>/{BotCommands.LeechSet1Command}</b>: Leech Settings 
-<br><br>
-<b>/{BotCommands.SetThumb1Command}</b>: Reply photo to set it as Thumbnail
 <br><br>
 <b>/{BotCommands.Cancel1Mirror}</b>: Reply to the message by which the download was initiated and that download will be cancelled
 <br><br>
@@ -188,10 +152,6 @@ botcmds = [
         (f'{BotCommands.TarMirror1Command}','Start mirroring and upload as .tar'),
         (f'{BotCommands.ZipMirror1Command}','Start mirroring and upload as .zip'),
         (f'{BotCommands.UnzipMirror1Command}','Extract files'),
-        (f'{BotCommands.QbMirror1Command}','Start Mirroring using qBittorrent'),
-        (f'{BotCommands.QbTarMirror1Command}','Start mirroring and upload as .tar using qb'),
-        (f'{BotCommands.QbZipMirror1Command}','Start mirroring and upload as .zip using qb'),
-        (f'{BotCommands.QbUnzipMirror1Command}','Extract files using qBitorrent'),
         (f'{BotCommands.Clone1Command}','Copy file/folder to Drive'),
         (f'{BotCommands.Count1Command}','Count file/folder of Drive link'),
         (f'{BotCommands.Delete1Command}','Delete file from Drive'),
